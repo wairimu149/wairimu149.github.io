@@ -1,7 +1,6 @@
 ---
 title: About
   icon: fas fa-user
-  content: 
   ---
     I’m a data-driven professional with a background in Mathematics, Statistics, and finance. 
     Passionate about transforming raw data into real results and uncovering insights that drive smarter business decisions. 
