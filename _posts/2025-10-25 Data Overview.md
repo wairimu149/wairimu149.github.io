@@ -8,10 +8,9 @@ description: >-
 ---
 
 ## Project Overview
-In this project I developed an interactive HR summary dashboard using Tableau to help HR teams and business leaders gain visibility into workforce trends, performance, and opportunities for improvement.
+In this project, I developed an interactive HR summary dashboard using Tableau to help HR teams and business leaders gain visibility into workforce trends, performance, and opportunities for improvement.
 
-**Live dashboard:**  
-👉 [View the live Tableau Dashboard](https://public.tableau.com/app/profile/grace.nganga/viz/CS-DA02-25074GraceNganga/HRSUMMARY?publish=yes)
+👉 [**View the live Tableau Dashboard here**](https://public.tableau.com/app/profile/grace.nganga/viz/CS-DA02-25074GraceNganga/HRSUMMARY?publish=yes)
 
 ---
 
@@ -33,7 +32,7 @@ In this project I developed an interactive HR summary dashboard using Tableau to
 ## Key Insights
 - Departments with higher turnover tended to have lower average tenure — a potential retention concern.  
 - Hiring spikes in certain quarters suggest seasonal recruitment or project ramp-ups.  
-- Role and tenure distributions reveal areas with high experience concentration vs. those needing development.  
+- Role and tenure distributions reveal areas with high experience concentration versus those needing development.  
 - Interactive filters enable drilling down by department, role, or period for targeted insights.
 
 ---
@@ -46,35 +45,5 @@ Building this dashboard reinforced my ability to structure visual stories that s
 
 ---
 
-## Embedded Dashboard (interactive)
-Below is an embedded view of the Tableau dashboard so visitors can interact without leaving the page.
-
-> **Note:** If your site sanitizes iframes or you prefer not to embed, keep the direct link above instead.
-
-```html
-<!-- Responsive container for embedded Tableau -->
-<style>
-.tableau-container {
-  position: relative;
-  width: 100%;
-  padding-bottom: 56.25%; /* 16:9 aspect ratio — adjust if you want taller */
-  height: 0;
-  overflow: hidden;
-}
-.tableau-container iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  border: 0;
-}
-</style>
-
-<div class="tableau-container">
-  <iframe src="https://public.tableau.com/views/CS-DA02-25074GraceNganga/HRSUMMARY?:showVizHome=no&:embed=true"
-          allowfullscreen
-          scrolling="no">
-  </iframe>
-</div>
+Driven by data, defined by impact.
 
