@@ -1,57 +1,43 @@
 ---
-title: "Student Scores Analysis: Exploring Academic Performance by Gender"
+title: "Student Scores Analysis: Missing Values Cleaning"
 date: 2025-11-11
-categories: [Projects, Data Analysis, Python, Tableau]
-tags: [EDA, Data Cleaning, Visualization, Tableau, Python, Pandas, Student Dataset]
+categories: [Projects, Python, Data Analysis]
+tags: [Python, Pandas, NumPy, Data Cleaning, Missing Values, Student Dataset]
 description: >-
-  An exploratory data analysis of student performance across Math, English, and Science subjects using Python and Tableau, including data cleaning, visualization, and dashboard creation.
+  A Python-based project demonstrating data cleaning by handling missing values in a student scores dataset containing Math, English, and Science scores.
 ---
 
-## Project Overview
-This project analyzes student performance data containing names, ages, genders, and scores in Math, English, and Science.
-The goal was to clean missing values, perform exploratory data analysis (EDA), and create an interactive Tableau dashboard for visualization.  
-👉 [**View the full notebook on Colab**](https://colab.research.google.com/drive/1lswrS9JlDFCfLtovM2RSyRbRUoCAMRI9?usp=sharing)
-
----
-
-## Objectives
-- Handle missing values using Python (mean for numeric fields, mode for categorical).
-- Perform exploratory data analysis to understand distributions and relationships.
-- Create visualizations (histograms, boxplots, averages) in Tableau to compare performance by gender.
-- Build an interactive Tableau dashboard with filters for Gender and Age.
+## Project Overview  
+This project focuses on cleaning missing values in a student performance dataset using Python.  
+The dataset contains student names, ages, genders, and scores in Math, English, and Science.  
+The goal was to ensure no missing values remained for reliable analysis.  
+👉 [View the full notebook on Colab](https://colab.research.google.com/drive/1lswrS9JlDFCfLtovM2RSyRbRUoCAMRI9?usp=sharing)
 
 ---
 
-## Tools & Techniques
-- **Python (pandas, numpy)** for data cleaning and preparation.
-- **Matplotlib / Seaborn** for quick in-notebook visualization.
-- **Tableau** for interactive data visualization and dashboard creation.
-- Focused on handling missing data, comparing averages, and building clear visuals.
+## Objectives  
+- Load the student dataset using Python (pandas).  
+- Identify columns with missing values.  
+- Fill missing numeric values with column means.  
+- Fill missing categorical values with the mode.  
+- Verify that all missing values were handled successfully.
 
 ---
 
-## Tableau Dashboard Components
-- **Histograms:** Score distributions for Math, English, and Science.
-- **Boxplots:** Score spread by Gender for each subject.
-- **Average Lines:** Mean scores displayed per subject and gender.
-- **Dashboard Filters:** Interactive Gender and Age filters for dynamic exploration.
-- **Cards:** Filter cards, highlight cards, and optional parameter card for subject selection.
+## Tools & Techniques  
+- **Python (pandas)** for data loading and cleaning.  
+- **Key Metrics Handled:** Missing values in Age, Gender, Math_Score, English_Score, and Science_Score.
 
 ---
 
-## Key Insights
-- Average performance varied slightly by gender, with consistent median scores across subjects.
-- The spread of Science scores was wider, indicating greater variability among students.
-- The dashboard allows easy identification of outliers and score distributions by demographic group.
+## Key Steps & Code Highlights
 
----
+1. Loaded the dataset into a pandas DataFrame.  
+2. Checked for missing values with `df.isnull().sum()`.  
+3. Filled numeric missing values with column means, e.g.,  
+   ```python
+   df['Math_Score'] = df['Math_Score'].fillna(df['Math_Score'].mean())
 
-## Reflection & Next Steps
-This project strengthened my understanding of EDA and Tableau dashboard design.  
-Next, I plan to:
-- Add additional dimensions such as study hours or attendance if available.
-- Automate the pipeline to refresh Tableau dashboards from updated datasets.
-- Experiment with trend analysis over time in future versions.
 
 ---
 
