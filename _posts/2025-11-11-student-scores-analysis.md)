@@ -1,1 +1,59 @@
+title: Student Scores Analysis: Exploring Academic Performance by Gender  
+date: 2025-11-11  
+categories: [Projects, Data Analysis, Python, Tableau]  
+tags: [EDA, Data Cleaning, Visualization, Tableau, Python, Pandas, Student Dataset]  
+description: >-  
+  An exploratory data analysis of student performance across Math, English, and Science subjects.  
+  The project covers data cleaning using Python (pandas), visualization in Tableau, and insights into score distributions by gender and age.
+
+content: >-  
+  ## Project Overview  
+  This project analyzes student performance data containing names, ages, genders, and scores in Math, English, and Science.  
+  The goal was to clean missing values, perform exploratory data analysis (EDA), and create an interactive Tableau dashboard for visualization.  
+  👉 [**View the full notebook on Colab**](https://colab.research.google.com/drive/1lswrS9JlDFCfLtovM2RSyRbRUoCAMRI9?usp=sharing)  
+
+  ---  
+
+  ## Objectives  
+  - Handle missing values using Python (mean for numeric fields, mode for categorical).  
+  - Perform exploratory data analysis to understand distributions and relationships.  
+  - Create visualizations (histograms, boxplots, averages) in Tableau to compare performance by gender.  
+  - Build an interactive Tableau dashboard with filters for Gender and Age.  
+
+  ---  
+
+  ## Tools & Techniques  
+  - **Python (pandas, numpy)** for data cleaning and preparation.  
+  - **Matplotlib / Seaborn** for quick in-notebook visualization.  
+  - **Tableau** for interactive data visualization and dashboard creation.  
+  - Focused on handling missing data, comparing averages, and building clear visuals.  
+
+  ---  
+
+  ## Tableau Dashboard Components  
+  - **Histograms:** Score distributions for Math, English, and Science.  
+  - **Boxplots:** Score spread by Gender for each subject.  
+  - **Average Lines:** Mean scores displayed per subject and gender.  
+  - **Dashboard Filters:** Interactive Gender and Age filters for dynamic exploration.  
+  - **Cards:** Filter cards, highlight cards, and optional parameter card for subject selection.  
+
+  ---  
+
+  ## Key Insights  
+  - Average performance varied slightly by gender, with consistent median scores across subjects.  
+  - The spread of Science scores was wider, indicating greater variability among students.  
+  - The dashboard allows easy identification of outliers and score distributions by demographic group.  
+
+  ---  
+
+  ## Reflection & Next Steps  
+  This project strengthened my understanding of EDA and Tableau dashboard design.  
+  Next, I plan to:  
+  - Add additional dimensions such as study hours or attendance if available.  
+  - Automate the pipeline to refresh Tableau dashboards from updated datasets.  
+  - Experiment with trend analysis over time in future versions.  
+
+  ---  
+
+  **Driven by data, defined by impact.**
 
