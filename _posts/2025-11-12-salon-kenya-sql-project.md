@@ -3,6 +3,7 @@ title: "Salon Kenya SQL Project – Database Analysis"
 date: 2025-11-12
 categories: [Projects, SQL, Data Analysis]
 tags: [SQL, MySQL, Joins, Aggregations, Subqueries, Filters, Database]
+layout: post
 description: >-
   A MySQL-based dataset simulating a Kenyan salon business with multiple branches, online bookings, services (hair, nails), product sales, marketing campaigns, and payment tracking. Explore revenue, employee performance, client activity, and service popularity using SQL queries.
 ---
