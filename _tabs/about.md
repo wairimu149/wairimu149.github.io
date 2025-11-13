@@ -4,10 +4,7 @@ icon: fas fa-user
 layout: page
 ---
 
-I am a data-driven professional with a background in Mathematics, Statistics, and Finance.  
-Passionate about transforming raw data into actionable insights that drive informed business decisions.  
-My key areas include data analysis, visualization, and reporting, supported by strong skills in SQL, Python, Tableau, and Excel.  
-I am curious, analytical, and impact-oriented, guided by a commitment to continuous learning, problem-solving, and creating value through data.  
+I turn data into action. Curious, analytical, and solution-focused, I dig into numbers to uncover insights that drive smarter decisions and real impact. Whether it’s optimizing processes, spotting trends, or solving complex challenges, I translate data into strategies that deliver results across sectors. With a degree in Mathematics and Statistics and skills in SQL, Python, Tableau, and Excel, I thrive at turning complexity into clarity.  
 **Driven by data, defined by impact.**
 
 ---
