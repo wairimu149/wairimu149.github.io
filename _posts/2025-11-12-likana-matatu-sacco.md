@@ -70,7 +70,20 @@ The analysis provides insights into: **route revenue, ticket success rates, occu
 
 ---
 
+## Recommendations
+Based on the analysis, the following actions are recommended for Likana Matatu SACCO:  
+
+1. **Optimize Vehicle Allocation:** Deploy extra vehicles on high-demand routes and festive periods to maximize occupancy and revenue.  
+2. **Dynamic Pricing:** Consider increasing ticket prices slightly during peak seasons to optimize revenue while managing demand.  
+3. **Promote Off-Peak Travel:** Offer discounts or incentives for weekdays or low-demand routes to reduce underutilization.  
+4. **Encourage Digital Payments:** Promote MPESA and ATM payments further to reduce cash handling and streamline transactions.  
+5. **Monitor Cancellations:** Analyze cancellation patterns to improve booking policies, refunds, or incentives for early confirmation.  
+6. **Seasonal Planning:** Prepare staffing and operational support in advance for high-volume festive periods.  
+
+---
+
 Driven by data, defined by impact.  
 
 👉 [Access the Tableau Dashboard](https://public.tableau.com/app/profile/grace.nganga/viz/FestiveSeasonPlanningDashboardforLikanaSacco/Dashboard1?publish=yes)
+
 
